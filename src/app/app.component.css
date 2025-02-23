@@ -153,11 +153,18 @@ main {
 }
 
 .ejercicios1{
-  display:inline-flex;
+  display:flex;
+  justify-self: center;
 }
 
 .input{
   margin-left: 10px;
+}
+
+.general{
+  display: block;
+  justify-items: center;
+  text-align-last: center;
 }
 @media screen and (max-width: 650px) {
   .content {

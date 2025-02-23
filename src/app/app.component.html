@@ -144,15 +144,22 @@
     </div>
   </div>
 </main>
-<div class="ejercicios1">
-  <div class="cardsProducts">
-    <app-mensaje />
-  </div>
-  
-  <div class="input">
-    <app-mensaje2 />
+<div class="general">
+  <!-- Botón que emite el evento -->
+  <app-boton-master (eventoOcultar)="manejarOcultar($event)"></app-boton-master>
+
+  <!-- Contenido que se ocultará cuando `ocultarTodo` sea `true` -->
+  <div class="ejercicios1" *ngIf="!ocultarTodo">
+    <div class="cardsProducts">
+      <app-mensaje></app-mensaje>
+    </div>
+
+    <div class="input">
+      <app-mensaje2></app-mensaje2>
+    </div>
   </div>
 </div>
+
 
 
 <router-outlet />
