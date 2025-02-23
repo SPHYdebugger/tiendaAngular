@@ -1,0 +1,4 @@
+
+<input #miInput type="text" (input)="actualizarMensaje($event)" placeholder="Escribe un mensaje aquí">
+<button class="btn btn-outline-primary" (click)="limpiarMensaje(miInput)">borrar</button>
+<h2>{{ mensaje }}</h2>
