@@ -1,6 +1,8 @@
 .card {
-    margin-left: 15px;
+    border: 2px solid gray;
+    border-radius: 7px; 
+    height: 200px;
 }
 .btn {
-    font-size: 11px;
+    font-size: 10px;
   }

@@ -1,9 +1,7 @@
-.input {
-    margin-left: 15px;
-}
-.mensaje2{
+.colores{
     border: 2px solid gray;
     border-radius: 7px;
     padding: 10px;
+    margin-left: 10px;
     height: 200px;
 }
